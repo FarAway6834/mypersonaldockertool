@@ -9,4 +9,4 @@ well... using pip with apt isn't common? I think that it look common nah I don't
 
 ## personal note
 
-`curl -fsSL https://faraway6834.github.io/mypersonaldockeruse/cloneitauto | sh`
+`curl -fsSL https://faraway6834.github.io/mypersonaldockerutool/cloneitauto | sh`
