@@ -1,0 +1,8 @@
+Package: mypersonaldockeruse
+Version: 0.0.1
+Arcitecture: all
+Maintainer: korean highschool student what first file commit in school also even fully myself
+Description: ㅣpass|
+Depends: build-essential, snapd
+Section: devel
+Priority: optional
