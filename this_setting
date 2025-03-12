@@ -1,2 +1,10 @@
 #!/bin/sh
-cd 
+cd package_manager
+chmod u+x build_*
+chmod u+x deploy_*
+cd ..
+
+python -m venv .venv
+myvenv
+pip download -y mydockeruse
+pip install -y mydockeruse
