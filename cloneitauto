@@ -1,1 +1,6 @@
-apt update -y && apt upgrade -y && apt install -y git && git clone https://github.com/FarAway6834/mypersonaldockertool.git
+apt update -y
+apt upgrade -y
+apt install -y git
+git clone https://github.com/FarAway6834/mypersonaldockertool.git
+cd mypersonaldockertool
+sh this_setting
