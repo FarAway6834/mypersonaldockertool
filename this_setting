@@ -1,8 +1,9 @@
 #!/bin/sh
-chmod u+x ./this_setting
-chmod u+x ./installations
 
-sudo ./installations
+chmod u+x ./installaitions
+chmod u+x ./this_setting
+
+sudo ./installaitions
 
 cd package_manager
 chmod u+x ./build_*
