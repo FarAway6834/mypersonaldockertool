@@ -2,7 +2,7 @@ Package: mypersonaldockeruse
 Version: 0.0.1
 Arcitecture: all
 Maintainer: korean highschool student what first file commit in school also even fully myself
-Description: ㅣpass|
+Description: using PyPI mydockertool package much better in docker by PyPI mypersonaldockeruse, and also it deploy as snap & apt with build-essential & python also deploy as docker 2 use much better.
 Depends: build-essential, snapd
 Section: devel
 Priority: optional
