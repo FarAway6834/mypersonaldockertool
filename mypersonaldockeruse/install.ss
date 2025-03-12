@@ -1,0 +1,1 @@
+cat __dockerimgname__ | sed '/^$/d' | python -m mytool4docker.install
