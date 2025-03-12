@@ -12,6 +12,10 @@ cd ..
 cd mypersonaldockeruse
 chmod u+x ./build_this_pkg
 cd ..
+cd mypersonaldockerusexample
+chmod u+x ./x
+cd ..
+chmod u+x ./x
 
 python -m venv .venv
 . ./myvenv
