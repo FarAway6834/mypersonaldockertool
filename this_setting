@@ -14,5 +14,5 @@ cd ..
 
 python -m venv .venv
 . ./myvenv
-pip download -y mydockeruse
-pip install -y mydockeruse
+pip download mydockeruse
+pip install mydockeruse
