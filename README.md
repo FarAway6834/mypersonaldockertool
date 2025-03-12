@@ -15,7 +15,7 @@ in Termux proot-distro :
 
 # install
 
-in shell
+user install
 ```sh
 sudo curl -fsSL https://github.com/FarAway6734/mypersonaldockertool/v | sh
 ```
@@ -24,4 +24,11 @@ docker deployment
 ```sh
 docker pull farawayjams/mypersonaldockeruse:latest
 docker run -it farawayjams/mypersonaldockeruse:latest
+```
+
+pypi deployment
+```sh
+pip install mypersonaldockeruse
+python -m mypersonaldockeruse.install
+python -m mypersonaldockeruse
 ```
