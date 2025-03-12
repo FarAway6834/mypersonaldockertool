@@ -5,6 +5,6 @@ chmod u+x deploy_*
 cd ..
 
 python -m venv .venv
-myvenv
+. myvenv
 pip download -y mydockeruse
 pip install -y mydockeruse
