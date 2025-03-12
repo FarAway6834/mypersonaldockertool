@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt update -y && apt upgrade -y && apt install -y snap && snap install -y python3 python3-pip
+sudo apt update -y && apt upgrade -y && apt install -y snap && snap install -y python3 python3-pip && snap install -y snapcraft --classic
 
 chmod u+x ./this_setting
 cd package_manager
