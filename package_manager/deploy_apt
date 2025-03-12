@@ -1,0 +1,3 @@
+#!/bin/sh
+cd mypersonaldockeruse
+dput ㅣppa:my-ppa-nameㅣ mypersonaldockertool_0.0.1_source.changes
