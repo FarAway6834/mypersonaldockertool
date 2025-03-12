@@ -1,0 +1,6 @@
+#!/bin/sh
+snapcraft login
+cd good_package_manager_part
+snapcraft register mypersonaldockeruse
+snapcraft upload mypersonaldockeruse_*.snap
+snapcraft release mypersonaldockertool edge
