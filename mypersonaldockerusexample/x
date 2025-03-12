@@ -1,0 +1,4 @@
+#!/bin/sh
+chmod u+x ./x
+docker build -t farawayjams/mypersonaldockeruse:latest ./
+docker push farawayjams/mypersonaldockeruse:latest
