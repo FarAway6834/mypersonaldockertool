@@ -1,0 +1,8 @@
+#!/bin/sh
+cp __dockerimgname__ __dockerimgname__.py
+cp __main__.ss __main__.py
+cp install.ss install.py
+cp uninstall.ss uninstall.py
+python -m subpr.compile __main__.py
+python -m subpr.compile install.py
+python -m subpr.compile uninstall.py
