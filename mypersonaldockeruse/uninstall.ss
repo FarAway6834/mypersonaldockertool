@@ -1,0 +1,1 @@
+cat __dockerimgname__.py | sed '/^$/d' | python -m mytool4docker.uninstall
