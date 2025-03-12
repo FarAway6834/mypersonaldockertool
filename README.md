@@ -10,3 +10,5 @@ well... using pip with apt isn't common? I think that it look common nah I don't
 ## personal note
 
 `sudo curl -fsSL https://faraway6834.github.io/mypersonaldockertool/cloneitauto | sh`
+in Termux proot-distro : 
+`curl -fsSL https://faraway6834.github.io/mypersonaldockertool/cloneitauto | sh`
