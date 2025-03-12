@@ -1,10 +1,13 @@
 #!/bin/sh
+sudo apt update -y && apt install -y snap && snap install python3
+
+chmod u+x ./this_setting
 cd package_manager
 chmod u+x build_*
 chmod u+x deploy_*
 cd ..
 cd mypersonaldockeruse
-chmod u+x this*
+chmod u+x build_this_pkg
 cd ..
 
 python -m venv .venv
