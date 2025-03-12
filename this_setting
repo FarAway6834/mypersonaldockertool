@@ -3,14 +3,14 @@ sudo apt update -y && apt upgrade -y && apt install -y snap devscripts && snap i
 
 chmod u+x ./this_setting
 cd package_manager
-chmod u+x build_*
-chmod u+x deploy_*
+chmod u+x ./build_*
+chmod u+x ./deploy_*
 cd ..
 cd mypersonaldockeruse
-chmod u+x build_this_pkg
+chmod u+x ./build_this_pkg
 cd ..
 
 python -m venv .venv
-. myvenv
+. ./myvenv
 pip download -y mydockeruse
 pip install -y mydockeruse
