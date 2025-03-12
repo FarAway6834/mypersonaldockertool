@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # mypersonaldockertool/volum.sh
 
 apt update -y
