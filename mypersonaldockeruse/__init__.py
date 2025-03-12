@@ -1,0 +1,1 @@
+__all__,__version__=(lambda x:(x,x.pop()))('__main__ install uninstall 0.0.1'.split())
