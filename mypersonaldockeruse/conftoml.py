@@ -1,2 +1,2 @@
 [conf]
-img = "farawayjams/mypersonaldockertool:latest"
+img = "farawayjams/mypersonaldockeruse:latest"
