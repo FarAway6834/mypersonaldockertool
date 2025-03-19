@@ -1,4 +1,4 @@
-__all__,__version__=(lambda x:(x,x.pop()))('__main__ install uninstall conf 0.0.1'.split())
+__all__,__version__=(lambda x:(x,x.pop()))('__main__ install uninstall conf 0.0.2'.split())
 
 try: import builtins as __builtin__
 except: import __builtin__
